@@ -1,0 +1,30 @@
+This Project is to convert a Comma Seperated Value (CSV) file grades.csv to a JSON formated file and vice versa. 
+Project contains two .java files, Main.java and Converter.java
+Given input files CSV and JSON need to be in the following formart. 
+CSV:
+
+    "ID","Total","Assignment 1","Assignment 2","Exam 1"
+    "111278","611","146","128","337"
+    "111352","867","227","228","412"
+    "111373","461","96","90","275"
+    "111305","835","220","217","398"
+    "111399","898","226","229","443"
+    "111160","454","77","125","252"
+    "111276","579","130","111","338"
+    "111241","973","236","237","500"
+    
+    
+JSON:
+ {
+        "colHeaders":["Total","Assignment 1","Assignment 2","Exam 1"],
+        "rowHeaders":["111278","111352","111373","111305","111399","111160","111276","111241"],
+        "data":[[611,146,128,337],
+                [867,227,228,412],
+                [461,96,90,275],
+                [835,220,217,398],
+                [898,226,229,443],
+                [454,77,125,252],
+                [579,130,111,338],
+                [973,236,237,500]
+        ]
+    }
